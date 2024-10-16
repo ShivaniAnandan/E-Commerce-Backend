@@ -13,8 +13,6 @@ connectDB();  // Connect to MongoDB
 
 const app = express();
 
-// app.use(cors());
-
 // Use CORS to allow requests from specific origins
 app.use(cors({
   origin: ['http://localhost:5173', 'https://jocular-gaufre-15d016.netlify.app'], // Allow only your frontend origin
